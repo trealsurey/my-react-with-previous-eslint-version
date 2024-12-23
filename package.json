@@ -1,0 +1,18 @@
+{
+  "name": "my-react-with-previous-eslint-version",
+  "version": "1.0.0",
+  "author": "lucylee trealsurey@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "rm -rf dist && rollup --config scripts/rollup/dev.config.js",
+    "lint": "eslint --ext .js,.ts,.jsx,.tsx,.vue --fix --quiet ./packages"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2"
+  }
+}
